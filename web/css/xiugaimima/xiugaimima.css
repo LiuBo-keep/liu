@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    width: 1000px;
+    height: 80px;
+    border-bottom: solid gainsboro;
+    margin: 0 auto;
+    line-height: 80px;
+    background-color: ghostwhite;
+}
+
+.top p {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content {
+    width: 900px;
+    margin: 10px auto;
+}
+
+.content .pwd {
+    width: 100%;
+    height: 70px;
+    /*margin: 10px auto;*/
+    border-radius: 20px;
+    background-color: lightyellow;
+    line-height: 70px;
+    /*position: absolute;*/
+}
+
+.content .pwd h2 {
+    margin-left: 30px;
+    color: red;
+}
+
+.content .pwd h6 {
+    position: relative;
+    top: -67px;
+    left: 120px;
+    font-size: 15px;
+    font-weight: 500;
+    font: "微软雅黑";
+    color: rgba(255, 50, 0, 0.5);
+}
+
+.content .pwd1 {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.content .pwd1 label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .pwd1 label:nth-child(6) {
+    margin-left: 85px;
+}
+
+.content .pwd1 label:nth-child(12) {
+    margin-left: -22px;
+}
+
+.content .pwd1 label:nth-child(17) {
+    margin-left: -88px;
+}
+
+.content .pwd1 input {
+    width: 450px;
+    height: 30px;
+    margin-left: 18px;
+}
+
+.content .pwd1 span:nth-child(4) {
+    font-size: 15px;
+    color: gainsboro;
+    margin-left: -215px;
+}
+.content .pwd1 span:nth-child(8) {
+    width: 100px;
+    height:30px;
+    border: 0px solid black;
+    margin-right: 0px;
+    /*position: relative;
+    top: 0px;
+    left: 10px;*/
+}
+
+.content .pwd1 span:nth-child(10) {
+    font-size: 15px;
+    color: gainsboro;
+    margin-left: 140px;
+}
+
+.content .pwd1 span:nth-child(15) {
+    font-size: 15px;
+    color: gainsboro;
+    margin-left: -186px;
+}
+
+.content .pwd1 input:nth-child(7) {
+    margin-top: 20px;
+}
+
+.content .pwd1 input:nth-child(13) {
+    margin-top: 20px;
+}
+
+.content .pwd1 input:nth-child(18) {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.content .pwd1 span:nth-child(19) {
+    background-color: gainsboro;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    color: orange;
+    font: "微软雅黑";
+    font-family: "agency fb";
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.content .bottom {
+    width: 180px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    /*background-color: green;*/
+    margin-left: 345px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    /*color: white;*/
+}
+.content .bottom input{
+    width: 180px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+}

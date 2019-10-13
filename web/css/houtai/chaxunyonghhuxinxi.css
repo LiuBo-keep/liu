@@ -1,0 +1,108 @@
+.a{
+    position: relative;
+    top: -341px;
+    left: 248px;
+}
+.b{
+    text-align: center;
+    position: relative;
+    top: -176px;
+    left: 247px;
+}
+.tb1{
+    width: 1248px;
+    height: 151px;
+    border: 1px solid;
+    table-layout:fixed;
+    border-color: #87cebb;
+    border-collapse:collapse;
+    position: absolute;
+    top: 2px;
+    left: 7px;
+}
+tr{
+    border: 1px solid;
+    border-color: #87cebb;
+}
+.tr1{
+    height: 38px;
+    text-align: center;
+}
+td{
+    width: 15%;
+    border: 1px solid;
+    border-color: #87cebb;
+}
+.input1{
+    width: 169px;
+    height: 23px;
+    border: 1px solid;
+    position: relative;
+    top: 8px;
+    left: 9px;
+}
+.div1{
+    width: 235px;
+    height: 100%;
+    border: 1px solid;
+    background-color: white;
+    position: relative;
+    top: -17px;
+    left: 180px;
+}
+.tu{
+    width: 26px;
+    height: 23px;
+    float: left;
+    background: url("../../img/houtai/1.jpg");
+    background-size: 105px 47px;
+    background-position: -178px 89px;
+    position: relative;
+    top: 4px;
+    left: 36px;
+}
+p{
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    left: 45px;
+}
+.sub{
+    width: 50px;
+    height: 21px;
+    margin: 0 33px;
+    border: 1px solid;
+    color: white;
+    background-color: #008080;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 9px;
+    left: 448px;
+}
+.tb{
+    line-height: 30px;
+    width: 1248px;
+    position: relative;
+    left:7px ;
+}
+.tb tr{
+    height: 30px;
+}
+
+.aa{
+    width: 300px;
+    font-weight: 500;
+    font-size: 21px;
+    position: relative;
+    left: 435px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+

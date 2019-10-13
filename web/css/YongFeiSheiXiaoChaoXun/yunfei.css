@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    margin: 25px;
+    color: white;
+    font-size: 28px;
+    text-decoration:none;
+}
+.nav{
+    width: 1534px;
+    height: 280px;
+    background: url("../../img/YongFeiSheiXiaoChaoXun/yunfei_bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.sy{
+    width: 280px;
+    position: relative;
+    top:20px;
+    left: 600px;
+}
+.bg{
+    width: 1534px;
+    height: 700px;
+    background-size: 100% 100% ;
+    background-color: lightgrey;
+}
+.zw{
+    width: 800px;
+    height: 700px;
+    position: relative;
+    top: 0px;
+    left: 350px;
+    background-color: white;
+}
+.wz{
+    width: 780px;
+    height: 650px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.fj{
+    width: 1534px;
+    height: 5px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+}
+.bq{
+    width: 1534px;
+    height: 80px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+
+}
+.cr{
+    position: relative;
+    top: 30px;
+    left: 550px;
+    width: 700px;
+}
+.bg .bq .cr a{
+    font-size: 14px;
+}

@@ -1,0 +1,616 @@
+	* {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+	/*第一层*/
+	/*顶部  导航栏*/
+	
+	body {
+		background-color: white;
+	}
+
+	#top {
+		display: block;
+		width: 1400px;
+		height: 150px;
+		border-bottom: solid gray;
+		margin-left: 60px;
+		/*position: absolute;*/
+		position: relative;
+	}
+	
+	#top .topPic {
+		width: 300px;
+		height: 100px;
+		border-radius: 0px;
+		background: url("../../../img/guangao/long.jpg") no-repeat;
+		background-size: 245px 73px;
+		position: relative;
+		bottom: 120px;
+		left: 110px;
+	}
+	
+	#top span:nth-child(3) {
+		width: 500px;
+		height: 50px;
+		line-height: 50px;
+		font-weight: 600px;
+		font-size: 30px;
+		position: relative;
+		bottom: 204px;
+		left: 370px;
+	}
+	
+	#top .topNav {
+		width: 1200px;
+		height: 40px;
+		border: 2px solid burlywood;
+		line-height: 40px;
+		position: relative;
+		bottom: 197px;
+		left: 110px;
+		background: linear-gradient(to bottom, black, red, black);
+	}
+	
+	#top .topNav li {
+		width: 130px;
+		height: 40px;
+		text-align: center;
+		list-style: none;
+		float: left;
+		border-left: solid white;
+	}
+	
+	#top .topNav a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	#top .topNav a:hover {
+		color: green;
+	}
+	/*第二层*/
+	/*中间图片内容*/
+	
+	#body {
+		display: block;
+		width: 1400px;
+		height: 480px;
+		border: 0px solid black;
+		margin-left: 60px;
+		background: linear-gradient(to right, burlywood, white);
+		position: relative;
+		/*position: absolute;*/
+	}
+	/*轮播图*/
+	
+	#body .bodyLeft {
+		display: inline-block;
+		width: 952px;
+		height: 400px;
+		border: 0px solid black;
+		overflow: hidden;
+		position: relative;
+		bottom: 170px;
+		left: 200px;
+	}
+	
+	#body .bodyLeft ul {
+		width: 500%;
+		list-style: none;
+		left: 0px;
+		position: absolute;
+		/*position: relative;*/
+	}
+	
+	#body .bodyLeft li {
+		float: left;
+	}
+	
+	#body .bodyLeft li>img {
+		width: 952px;
+		height: 400px;
+	}
+	
+	#body .bodyLeft .sp {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+	}
+	
+	#body .bodyLeft .sp span {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		background-color: white;
+		border: 1px solid #ccc;
+		text-align: center;
+		line-height: 20px;
+		cursor: pointer;
+		margin: 5px;
+	}
+	
+	.current {
+		background-color: orange;
+		color: red;
+	}
+	/*返回注册页*/
+	
+	#body .bodyRight {
+		display: inline-block;
+		width: 300px;
+		height: 50px;
+		border: 0px solid black;
+		position: relative;
+		bottom: 550px;
+		right: -230px;
+	}
+	
+	#body .bodyRight .bodyR .iconfont {
+		font-family: FontAwesome;
+		/*width: 80px;
+		height: 80px;*/
+		/*border: 1px  solid black;*/
+		/*position: absolute;*/
+		position: relative;
+		top: 3px;
+		left: 10px;
+		text-decoration: none;
+	}
+	
+	#body .bodyRight a:nth-child(2) {
+		margin-left: 10px;
+		margin-top: -10px;
+		text-decoration: none;
+		color: black;
+		font-size: 15px;
+	}
+	/*第三层*/
+	
+	#message {
+		display: block;
+		width: 1520px;
+		height: 400px;
+		border: 0px solid black;
+		margin-top: 65px;
+		position: relative;
+	}
+	
+	#message .messageImg {
+		width: 100%;
+		height: 400px;
+	}
+	
+	#message .content {
+		display: inline;
+		width: 100%;
+		height: 500px;
+		position: relative;
+	}
+	
+	#message .content .contentTop {
+		display: inline;
+		position: relative;
+	}
+	
+	#message .content .contentTop .h {
+		display: inline;
+		margin-left: 700px;
+		position: relative;
+		bottom: 380px;
+		left: 0px;
+	}
+	
+	#message .content span:nth-child(3) {
+		font-size: 15px;
+		margin-left: 430px;
+		position: relative;
+		bottom: 370px;
+		left: 0px;
+		letter-spacing: 3px;
+	}
+	
+	#message .content .contentBody {
+		display: block;
+		width: 100%;
+		position: relative;
+		bottom: 330px;
+		left: 0px;
+	}
+	
+	#message .content .contentBody .contentBody1 {
+		width: 1130px;
+		height: 172px;
+		/*margin: 0 auto;*/
+		position: absolute;
+	}
+	
+	#message .content .contentBody .contentBody1 .contentBody2 {
+		width: 1130px;
+		height: 172px;
+		border: 0px solid black;
+	}
+	
+	#message .content .contentBody .contentBody1 .contentBody2 .contentQuan {
+		width: 280px;
+		height: 172px;
+		border: 0px solid black;
+		float: left;
+		position: relative;
+		/*top: ;*/
+		left: 240px;
+	}
+	
+	#message .content .contentBody .contentBody1 .contentBody2 .contentQuan a:nth-child(1) {
+		display: block;
+		width: 172px;
+		height: 172px;
+		margin: 0 auto;
+		border-radius: 50%;
+		/*border: 1px solid black;*/
+		background: url("/../img/guangao/cir-white.png") no-repeat;
+		margin-left: 20px;
+		text-decoration: none;
+		position: absolute;
+	}
+	
+	#message .content .contentBody .contentBody1 .contentBody2 .contentQuan a:nth-child(1):hover {
+		background: red;
+	}
+	
+	.contentBody .contentBody1 .contentBody2 .contentQuan .contentA .pic {
+		width: 172px;
+		height: 58px;
+		/*border: 1px solid black;*/
+		margin: 0 auto;
+		position: relative;
+		top: 100px;
+	}
+	
+	.contentBody .contentBody1 .contentBody2 .contentQuan .contentA .pic .red {
+		display: block;
+	}
+	
+	.contentBody .contentBody1 .contentBody2 .contentQuan .contentA .pic img {
+		margin: 0 auto;
+	}
+	
+	.contentBody .contentBody1 .contentBody2 .contentQuan .contentA .pic .white {
+		display: none;
+	}
+	
+	.contentBody .contentBody1 .contentBody2 .contentQuan .contentA .pic img {
+		margin: 0 auto;
+		margin-top: -58px;
+	}
+	
+	.contentBody .contentBody1 .contentBody2 .contentQuan .contentA p {
+		margin-top: 120px;
+		margin-left: 50px;
+		font-size: 18px;
+		color: red;
+	}
+	
+	.contentBody .contentBody1 .contentBody2 .contentQuan .contentA p:hover {
+		color: white;
+	}
+	/*信息资讯*/
+	
+	#content {
+		display: block;
+	}
+	
+	.news {
+		width: 1520px;
+		height: 500px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+	#content .newMessage {
+		overflow: hidden;
+	}
+	
+	#content .newMessage a {
+		text-decoration: none;
+		cursor: pointer;
+	}
+	
+	#content .newMessage .newMessageTop {
+		width: 100%;
+		text-align: center;
+	}
+	
+	#content .newMessage .newMessageTop .h2 {
+		width: 300px;
+		height: 60px;
+		margin: auto;
+		text-align: center;
+		line-height: 60px;
+		font-size: 30px;
+		font-weight: 600;
+		margin-top: 20px;
+	}
+	
+	#content .newMessage .newMessageTop .span {
+		letter-spacing: 3px;
+	}
+	
+	#content .newMessage .newMessageCenter {
+		margin-top: 20px;
+		overflow: hidden;
+		float: left;
+		position: relative;
+		left: 120px;
+		top: 0px;
+	}
+	
+	#content .newMessage .newMessageCenter .newCenter {
+		width: 310px;
+		height: 336px;
+		/*	border: 1px solid black;*/
+		margin-right: 10px;
+		background-color: gainsboro;
+		position: relative;
+	}
+	
+	#content .newMessage .newMessageCenter .newCenter:hover {
+		background: red;
+	}
+	
+	#content .newMessage .newMessageCenter .newCenter .newCenterTop span {
+		display: block;
+		width: 280px;
+		height: 60px;
+		/*border: 1px solid black;*/
+		margin-left: 12px;
+		font-size: 18px;
+		color: black;
+	}
+	
+	#content .newMessage .newMessageCenter .newCenter .newCenterTop p {
+		display: block;
+		width: 280px;
+		height: 60px;
+		margin-top: 3px;
+		margin-left: 12px;
+		font-size: 15px;
+		color: black;
+	}
+	
+	#content .newMessage .newMessageCenter .newCenter .newCenterTop p>b {
+		color: red;
+	}
+	/*促销活动*/
+	
+	#shopMessage {
+		display: block;
+		background-color: gainsboro;
+	}
+	
+	.shopMassage {
+		margin-top: 30px;
+		width: 1520px;
+		height: 240px;
+		border: 1px solid black;
+	}
+	
+	#shopMessage .shop {
+		width: 100%;
+		height: 133px;
+		margin-top: 20px;
+		position: relative;
+	}
+	
+	#shopMessage .shop .shopMassageTop {
+		height: 70px;
+		text-align: center;
+	}
+	
+	#shopMessage .shop .shopMassageTop span {
+		display: block;
+		margin-top: 10px;
+		letter-spacing: 3px;
+	}
+	
+	#shopMessage .shop .shopA {
+		text-decoration: none;
+		position: absolute;
+		top: 55px;
+		right: 200px;
+		color: red;
+		font-size: 18px;
+	}
+	/*底部部分*/
+	
+	#bottom {
+		display: block;
+	}
+	
+	#bottom .footer {
+		width: 100%;
+		min-width: 1280px;
+		border-top: 8px solid #dc1e32;
+		background: #000;
+		/*background: gainsboro;*/
+		position: relative;
+		padding-top: 50px;
+		height: 300px;
+	}
+	
+	#bottom .footer .footerContent {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	#bottom .footer .footerContent .toTop {
+		/*position: relative;*/
+		position: fixed;
+		cursor: pointer;
+		right: 130px;
+		bottom: 100px;
+		/*display: block;*/
+	}
+	
+	#bottom .footer .footerContent .left {
+		border-right: solid red;
+		margin-right: 360px;
+		position: absolute;
+		top: 50px;
+		left: 0px;
+	}
+	
+	#bottom .footer .footerContent .left a {
+		text-decoration: none;
+	}
+	
+	#bottom .footer .footerContent .left table {
+		width: 1008px;
+		height: 235px;
+		/*border: 1px solid black;*/
+		border-right: solid red;
+		margin-left: 150px;
+		float: left;
+		position: absolute;
+	}
+	
+	#bottom .footer .footerContent .left .title {
+		position: relative;
+		top: -68px;
+		left: 0px;
+	}
+	
+	#title4 {
+		margin-top: 23px;
+	}
+	
+	#title5 {
+		margin-top: 70px;
+	}
+	
+	#title6 {
+		margin-top: 47px;
+	}
+	
+	#title7 {
+		margin-top: 70px;
+	}
+	
+	#title8 {
+		margin-top: 23px;
+	}
+	
+	#bottom .footer .footerContent .left .title a {
+		color: white;
+		font-size: 18px;
+	}
+	
+	#bottom .footer .footerContent .left .list {
+		position: relative;
+		top: -53px;
+		left: 0px;
+	}
+	
+	#bottom .footer .footerContent .left .list a:hover {
+		color: white;
+	}
+	
+	#bottom .footer .footerContent .left .list li {
+		margin-bottom: 3px;
+	}
+	
+	#bottom .footer .footerContent .left .list li a {
+		color: darkgrey;
+	}
+	/*图标视图*/
+	
+	#bottom .footer .footerContent .right {
+		height: 176px;
+		width: 270px;
+		/*border: 1px solid black;*/
+	}
+	
+	#bottom .footer .footerContent .cn {
+		position: absolute;
+		top: 50px;
+		right: 88px;
+	}
+	
+	#bottom .footer .footerContent .right .rightTitle {
+		width: 100%;
+		height: 30px;
+		/*border: 1px solid black;*/
+		text-align: center;
+	}
+	
+	#bottom .footer .footerContent .right .rightTitle a {
+		font-size: 18px;
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+	}
+	
+	#bottom .footer .footerContent .right .share {
+		width: 100%;
+		height: 124px;
+		/*border: 1px solid black;*/
+		margin-top: 30px;
+		margin-left: 30px;
+	}
+	
+	#bottom .footer .footerContent .right .share .xinlang {
+		background: url("/../img/guangao/label-top-r-btn.png") no-repeat;
+	}
+	
+	#bottom .footer .footerContent .right .share .winxing {
+		position: relative;
+		background: url("/../img/guangao/label-top-r-btn.png") no-repeat -80px 0px;
+	}
+	
+	#bottom .footer .footerContent .right .share .online {
+		background: url("/../img/guangao/label-top-r-btn.png") no-repeat -157px 0px;
+	}
+	
+	#bottom .footer .footerContent .right .share .app {
+		position: relative;
+		background: url("/../img/guangao/label-top-r-btn.png") no-repeat 0px -80px;
+	}
+	
+	#bottom .footer .footerContent .right .share a {
+		display: inline-block;
+		width: 58px;
+		height: 58px;
+		margin-right: 10px;
+	}
+	/*二维码*/
+	
+	#bottom .footer .footerContent .right .share .pop {
+		display: none;
+		width: 185px;
+		position: absolute;
+		right: -60px;
+		bottom: 70px;
+		padding: 10px;
+		box-sizing: border-box;
+		background: #fff;
+		z-index: 11;
+		color: #333;
+	}
+	
+	#bottom .footer .footerContent .right .share .pop img {
+		width: 160px;
+		height: 160px;
+		border: 0px solid black;
+	}
+	
+	#bottom .footer .footerContent .right .share .pop .caret {
+		position: absolute;
+		height: 0;
+		width: 0px;
+		border: 15px solid transparent;
+		border-top: 15px solid #fff;
+		border-bottom: none;
+		bottom: -15px;
+		left: 78px;
+	}

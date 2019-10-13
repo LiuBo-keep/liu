@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+}
+ul{
+    position: relative;
+    top: -15px;
+}
+li{
+    float: left;
+    font-size: 14px;
+    color: rgb(189, 189, 189);
+    margin: 20px;
+    list-style:none;
+}
+p{
+    text-align: center;
+    line-height: 78px;
+    color: rgb(117, 117, 117);
+}
+.top{
+    width: 100%;
+    height: 43px;
+}
+.top-1{
+    width: 954px;
+    height: 43px;
+    position: relative;
+    left: 269px;
+}
+.logo{
+    width: 104px;
+    height: 20px;
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    left: 34px;
+}
+.tex{
+    width: 478px;
+    height: 30px;
+    position: relative;
+    top: -15px;
+    left: 182px;
+}
+.logo-img{
+    width: 104px;
+    height: 20px;
+}
+.body{
+    width: 100%;
+    height: 680px;
+    background: #f5f5f5;
+}
+.body-1{
+    width: 400px;
+    height: 680px;
+    background: #ffff;
+    margin: 0px auto;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 20px;
+    position: relative;
+}
+.body-2{
+    width: 340px;
+    height: 605px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+img{
+    width: 190px;
+    height: 60px;
+    position: absolute;
+    left: -5px;
+    top: -1px;
+}
+.img{
+    width: 179px;
+    height: 58px;
+    border: none;
+    overflow: hidden;
+    position: absolute;
+    left: 81px;
+    top: -5px;
+}
+.body-3{
+    width: 68%;
+    height: 41px;
+    font: 14px;
+    color: rgb(189, 189, 189);
+    line-height: 41px;
+    text-align: center;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    position: absolute;
+    top: 80px;
+    left: 54px;
+}
+.forma{
+    position: absolute;
+    top: 148px;
+}
+.div-1{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189);
+    position: relative;
+}
+.input-1{
+    width: 317px;
+    height: 27px;
+    border-style: none;
+    outline:none;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+.div-2{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189);
+    position: relative;
+    top: 23px;
+}
+.input-2{
+    width: 317px;
+    height: 27px;
+    border-style: none;
+    outline:none;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+.div-3{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189);
+    position: relative;
+    top: 44px;
+}
+
+.input-3{
+    width: 317px;
+    height: 27px;
+    border-style: none;
+    outline:none;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+
+.div-4{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189);
+    position: relative;
+    top: 60px;
+}
+.input-4{
+    width: 317px;
+    height: 27px;
+    border-style: none;
+    outline:none;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+.div-5{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189);
+    position: relative;
+    top: 80px;
+}
+.input-5{
+    width: 317px;
+    height: 27px;
+    border-style: none;
+    outline:none;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+.div-6{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+}
+.input-6{
+    width: 340px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+    background: rgb(84, 110, 122);
+}
+.div-7{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(189, 189, 189);
+    position: absolute;
+    top: 505px;
+    left: 112px;
+}
+span{
+    color: rgb(84, 110, 122);
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+.div-8{
+    width: 216px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 45px;
+    color: rgb(117, 117, 117);
+    border-top: 1px solid rgb(189, 189, 189);
+    position: relative;
+    top: 572px;
+    left: 62px;
+}
+.foot{
+    width: 100%;
+    height: 78.8px;
+    background: #f5f5f5;
+}
+.div-9{
+    width: 629px;
+    height: 78.7px;
+    position: absolute;
+    left: 439px;
+}

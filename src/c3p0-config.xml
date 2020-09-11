@@ -14,7 +14,7 @@
         <property name="maxPoolSize">20</property>
     </default-config>
 
-    <!--专门为oracle提供的配置信息-->
+    <!--专门为mysql提供的配置信息-->
     <named-config name="oracle-config">
         <!--四大参数配置-->
         <property name="jdbcUrl">jdbc:mysql://localhost:3306/user</property>
